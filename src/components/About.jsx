@@ -42,15 +42,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Hi, I'm a full stack developer with expertise in both 
-        front-end and back-end technologies. 
-        I create dynamic, user-friendly web applications using HTML, CSS, JavaScript, 
-        and frameworks like React or Angular. 
-        On the server side, I work with languages like Python, Node.js, 
-        and databases such as MySQL and MongoDB. 
-        I'm also experienced with Git and cloud services like AWS. My holistic approach 
-        ensures robust, scalable, and efficient applications. 
-        I'm passionate about tackling new challenges and contributing to innovative projects!
+        Hi, I'm a full stack developer with expertise in both front-end and back-end technologies. 
+        I build dynamic, user-friendly web applications that focus on delivering seamless experiences. 
+        From crafting intuitive interfaces to developing efficient server-side logic, 
+        I ensure that every part of the application works together smoothly.
+        <br />
+        <br />
+        I’m experienced in working with various tools and technologies to create robust, scalable, 
+        and efficient solutions tailored to your needs. 
+        My holistic approach ensures a well-rounded and complete development process, 
+        from concept to deployment. I’m passionate about solving challenges and driving innovation 
+        through my work.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 ">
         {services.map((service, index) => (
